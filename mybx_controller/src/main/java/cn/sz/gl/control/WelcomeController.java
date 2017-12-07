@@ -22,10 +22,15 @@ public class WelcomeController {
 	@Autowired
 	private ITurnImageService turnimagebiz;
 	
+	
+	public void show(){
+		
+	}
+	
 	@RequestMapping(value="/")
 	public String welcome(Model model){
 		System.out.println("welcome...");
-		//ÕâÀï²éÑ¯³öÊ×Ò³ÉÏËùÐèÒªµÄËùÓÐµÄÊý¾Ý
+		//è¿™é‡ŒæŸ¥è¯¢å‡ºé¦–é¡µä¸Šæ‰€éœ€è¦çš„æ‰€æœ‰çš„æ•°æ®
 		
 		List<Menu> menulist = menubiz.findAllMenu();
 		model.addAttribute("menulist", menulist);
