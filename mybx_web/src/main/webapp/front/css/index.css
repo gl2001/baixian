@@ -1,0 +1,108 @@
+/*交易行情01*/
+.quotes01{ float: right; width: 249px; border: 1px solid #e6e6e6; margin: 16px 0 0 0; background: #f6f6f6;
+    -moz-border-radius:8px 8px 0 0; -webkit-border-radius:8px 8px 0 0; border-radius:8px 8px 0 0;behavior: url(pie.htc); overflow: hidden;}
+.quotes01 .accordion { float: left; width: 100%;}
+.quotes01 .accordion dt,
+.quotes01 .accordion dd {float: left; width: 100%;border-bottom: 1px solid #438bc5;}
+.quotes01 .accordion dt { cursor: pointer;padding: 5px 0;  background: url(../images/quotes-bg01.png) no-repeat 230px center; }
+.quotes01 .accordion dt div{ float: left; color: #fff; font-size: 14px;height: 24px; line-height: 24px; text-align: center;overflow: hidden; text-overflow:ellipsis; white-space:nowrap;}
+.quotes01 .accordion dt .quotes01-name{ width:70px; }
+.quotes01 .accordion dt .quotes01-weight{ width:20px; }
+.quotes01 .accordion dt .quotes01-prices{ width:130px; }
+.quotes01 .accordion dd { height: 165px; background: url(../images/quotes-bg02.png) repeat-x;}
+.accordion .hide{ display: none;}
+.quotes01 .accordion dd div{width: 90%; margin: 0 5%; color: #438bc5; }
+.quotes01 .accordion dd .quotes01-date{ margin-top: 5px; line-height: 20px; color: #666;}
+.quotes01 .accordion dd .quotes01-name{ height: 40px; line-height: 40px; text-align: center; font-size: 30px;}
+.quotes01 .accordion dd .quotes01-prices{ text-align: left; text-indent: 40px; font-size: 30px;}
+.quotes01 .accordion dd .quotes01-prices span{ font-size: 40px;}
+.quotes01 .accordion dd .quotes01-percent{ text-align: left; text-indent: 40px; font-size: 20px;}
+.quotes01 .accordion dd .quotes01-weight{ text-align: left; text-indent: 40px; font-size: 14px;}
+/*交易行情02*/
+.quotes02{ position: relative; float: left; width: 940px; background: #e9f5ff;
+    -moz-border-radius:8px 8px 0 0; -webkit-border-radius:8px 8px 0 0; border-radius:8px 8px 0 0;behavior: url(pie.htc); overflow: hidden; z-index: 1;}
+.quotes02 h5{ position: absolute; top:0; left:10px; line-height: 50px; font-size: 24px; color: #438bc5; z-index: 2;}
+/*实时交易*/
+.trading{ float: right; width: 248px; border:1px solid #eee;-moz-border-radius:10px 10px 0 0; -webkit-border-radius:10px 10px 0 0; border-radius:10px 10px 0 0;behavior: url(pie.htc); overflow: hidden;}
+.trading .tit{width: 100%; height: 52px; background: url(../images/liveTrading-icon01.png) repeat-x #69b839; line-height: 52px; text-align: left; color: #fff; font-size: 22px; text-indent: 20px;}
+.trading .con{ width: 100%;}
+.trading dl{ float: left; width: 100%; border-top: none;}
+.trading dl dt{ float: left; width: 100%; height: 40px; background: #b0e78e; }
+.trading dl dt div{ float: left; width: 25%; height: 40px; line-height: 40px; text-align:left; color: #000; text-indent: 10px;
+    overflow: hidden; text-overflow:ellipsis; white-space:nowrap;}
+.trading dl dd{ float: left; width: 100%; height: 422px;}
+.trading dl dd ul li div{ float: left; width: 25%; height: 40px; line-height: 30px; text-align:left; text-indent: 10px; color: #666;
+    overflow: hidden; text-overflow:ellipsis; white-space:nowrap;}
+.trading dl dd ul li:hover div{ color: #69b839;}
+/*找货助手*/
+.helpMe{ float: left;  margin: 10px auto;}
+/*首页广告*/
+.index-add{ display: block; float: left; width: 100%; margin: 10px 0; transition:all .2s ease-in-out;}
+.index-add:hover{opacity: 0.8;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);}
+/*热门路线*/
+.popular-routes{ float: left; width: 575px; margin: 10px 0 10px 10px; border:1px solid #e6e6e6;
+    -moz-border-radius:8px 8px 0 0; -webkit-border-radius:8px 8px 0 0; border-radius:8px 8px 0 0;behavior: url(pie.htc); overflow: hidden;}
+.popular-routes .tit{ width: 100%; height: 42px; background: url(../images/popularRoutes-icon01.png) repeat-x; color: #fff; font-size: 16px; line-height: 42px; text-align: left; text-indent: 20px;}
+.popular-routes .con{ width: 100%;}
+.popular-routes .con div{ float: left; width: 46%; margin: 18px 0 19px 3%;}
+.popular-routes .con div a{ display: block; width: 100%; height: 24px; margin: 0 0 11px 0; line-height: 24px; color: #666;}
+.popular-routes .con .routes-left{ border-right:1px solid #e6e6e6;}
+/*货物查询*/
+.inquiry-infor{ float: right; width: 250px; height: 254px; border:1px solid #e6e6e6; margin: 10px 0 0 0; -moz-border-radius:8px 8px 0 0; -webkit-border-radius:8px 8px 0 0; border-radius:8px 8px 0 0;behavior: url(pie.htc); }
+.inquiry-infor .tit{ width: 100%; height: 41px; background: url(../images/forGoods-icon01.png) repeat-x; font-size: 16px; color:  #fff; text-align: left; text-indent: 20px; line-height: 41px;}
+.inquiry-infor label{display: block; float: left; width: 100%; margin: 15px 0 0 0;}
+.inquiry-infor label p{ float: left; width: 70px; color: #666; line-height: 27px; text-align: right;}
+.inquiry-infor label input{ float: left; }
+.inquiry-infor .btn02{ float: left; margin:20px 0 0 70px;}
+/*首页流行行情 20150924*/
+.pop-quotation{
+    float: left;
+    width: 100%;
+    height: 360px;
+    background: url("../images/number-bg.png") no-repeat bottom center #feffff;
+}
+.pop-quotation dd{
+    float: left;
+    width: 100%;
+}
+.pop-quotation dt{
+    float: left;
+    width: 100%;
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+.pop-quotation dd>div{
+    float: left;
+    width: 100%;
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+.pop-quotation dd .num{
+    float:left;
+    width:100%;
+    text-align: center;
+    overflow:hidden;
+}
+.pop-quotation dd .num i{
+    display:inline-block;
+    width:21px;
+    height:30px;
+    margin:0 5px;
+    background: url(../images/number.png) no-repeat;
+    background-position:0 0;
+    text-indent:-9999px;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    -moz-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+}

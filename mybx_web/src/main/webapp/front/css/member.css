@@ -1,0 +1,261 @@
+/*会员中心 表单组件*/
+.member-right .controls{ position: relative; float: left; width: 100%; margin: 10px 0; }
+.member-right .controls p{ float: left; width: 110px; margin: 5px 10px 5px 0; line-height: 32px; color: #666; text-align: right;}
+.member-right .controls p span{padding-right: 5px; color: #f00; line-height: 32px;}
+.member-right .controls input{ float: left; margin-top: 5px; margin-bottom: 5px;}
+.member-right .controls .controls-radio{ float: left;}
+.member-right .controls .controls-radio img{ float: left;}
+.member-right .controls .controls-radio input{ float: left; margin:15px 5px 0 10px;}
+.member-right .controls .controls-radio .input02{ margin: 7px 5px;}
+.member-right .controls i{ display: block; float: left; margin:5px; line-height: 32px; color: #666; font-size: 14px; font-style: normal;}
+.member-right .controls .controls-lines{ float: left; margin: 0 4px; line-height: 32px; font-size: 14px;}
+.member-right .submit{ float: left; margin-left: 120px;}
+.member-right .submit01{ float: left; margin-left: 30px;}
+.member-right .btn06{float: left; margin-left: 20px;}
+.member-right .basic-name,
+.member-right .basic-tel{ float: left; margin: 5px 0; line-height: 32px; color: #333; }
+.member-right .change-tel{ display: block; float: left; font-size: 14px; margin: 5px; line-height: 32px;}
+.member-right .bound-tel{ float: left;margin: 5px 0; margin-left: 120px; line-height: 32px; color: #333; }
+.member-right .bound-tel span{ font-size: 14px; color: #69b839;}
+.member-tips{ float: left; margin: 5px 0 5px 120px; color: #666;}
+.member-right .controls .selectBox-dropdown{ margin: 5px 5px 5px 0;}
+.member-right .controls select{ margin: 5px 5px 5px 0; height: 32px; line-height: 32px; border:1px solid #e6e6e6; color: #666;}
+.member-right .controls select option{height: 32px; line-height: 32px; color: #666;}
+.member-right .controls .tips{ float: left; margin: 5px; line-height: 32px;}
+.member-right .pop .controls select{ margin:0; height: 26px; line-height: 26px; border:1px solid #e6e6e6; color: #666;}
+.member-right .pop .controls select option{height: 26px; line-height: 26px; color: #666;}
+.member-right .pop .controls .selectBox-dropdown{ margin: 0; height: 26px; line-height: 26px;}
+/*弹框表单组件*/
+.pop .controls{ margin: 5px 0;}
+.pop .controls p{ width: 80px; height: 28px; line-height: 28px; margin: 0;}
+.pop .controls input{ height: 26px; margin: 0; line-height: 26px;}
+/*图片上传*/
+.upload-controls{ float: left; margin: 0 10px 0 0;}
+.upload-controls .upload-img{ cursor: pointer;}
+.upload-controls .head-img img{ width: 100px; height: 100px;}
+.upload-controls .sfz-img img{ width: 148px; height: 110px;}
+.member-right .controls .tip{ float: left; width: 475px; margin: 10px 0 0 0;}
+.member-right .controls .tip em{ display: block; float: left; width:100%; line-height: 30px;}
+.controls-inputs{ float: left; width: 800px;}
+/*会员中心搜索*/
+.search-member{position: relative; float: left; width: 100%; margin: 10px 0; border:1px solid #e6e6e6; border-bottom: none; z-index: 2;}
+.search-member dl{ float: left; width: 100%;border-bottom: 1px solid #e6e6e6; }
+.search-member dl dd{ float: left; width: 100%; background: #fff; padding: 10px 0;}
+.search-member dl dd span{display: block; float: left; padding:0 0 0 5px; line-height:24px; cursor: pointer;}
+.search-member dl dd span:hover,
+.search-member dl dd span.selected{color: #69b839;}
+.search-member label{display: block; float: left; margin: 10px 0 10px 10px; color: #666;}
+.search-member label p{ float: left; width: auto; line-height: 27px; text-align: right;}
+.search-member label input{ float: left; margin: 0 2px;}
+.search-member label .selectBox{ float: left;margin: 0 2px;}
+.search-member label span{display: block; float: left; line-height: 27px;}
+.search-member .search-btn{ float: left; width: 100%; margin: 10px 0;}
+.search-member .btn03{ float: left; margin: 0 0 0 72px;}
+.search-member .search-btn .btn02{ float: left; width: 190px; margin: 0 0 0 20px;}
+.search-member .date{ background: url(../images/member-date.png) no-repeat center right;}
+.search-member .selectBox-dropdown{ height: 27px;}
+.search-member .selectBox-dropdown .selectBox-label{ line-height: 27px;}
+.search-member select{ float: left; height: 32px; margin: 0 5px 0 0; line-height: 32px; color: #666; border:1px solid #e6e6e6;}
+.search-member option{ height: 32px; line-height: 32px; color: #666;}
+/*会员中心*/
+.member-left{ float: left; width:190px; margin: 10px 0 0 0; background: #f7f7f7;}
+.member-left dl{ float: left; width: 188px;border: 1px solid #e6e6e6; border-bottom:none;}
+.member-left dt{ float: left; width: 100%; height: 44px; background: #69b839; line-height: 44px; color: #fff; text-align: left; text-indent: 15px; font-size: 22px;}
+.member-left dd{ float: left; width: 100%;}
+.member-left .menuPro-first{ display: block; float: left; width: 100%; height: 38px; border-bottom: 1px solid #e6e6e6; line-height: 38px; font-size: 14px; text-align: left; text-indent: 25px; color: #666;}
+.member-left .menuPro-first i{ margin-left: -25px;}
+.member-left .menuPro-first:hover{background:#e9f5ff; border-color:#acd598; color: #69b839;}
+.member-left .menuPro-first.selected{background:#e9f5ff; border-color:#acd598; color: #69b839;}
+.member-left .menuPro-second{ display: none; float: left; width: 100%;}
+.member-left .menuPro-second a{ display: block; float: left; width: 100%; height: 34px; border-bottom: 1px solid #e6e6e6; line-height: 34px; font-size: 12px; text-align: left; text-indent: 20px;}
+.member-left .menuPro-second a i{ margin-right: 5px;}
+.member-left .menuPro-second a.selected,
+.member-left .menuPro-second a:hover{color: #69b839;}
+.member-right{ float: right; width: 990px;}
+.member-main{ float:left; width: 988px; border:1px solid #e6e6e6; margin: 10px 0 0 0;}
+.member-column{position: relative; float: left; width: 94%; margin: 10px 3%; z-index: 1;}
+.member-exclusive{ position: absolute; top:70px; right: 0; z-index: 2;}
+.exclusive-tit{ line-height: 34px; font-size: 14px; text-align: left; color: #666;}
+.exclusive-con{position: relative; padding: 10px; border:2px solid #cce8ff; z-index: 1;}
+.exclusive-con div{ width: 100%; text-align: left; line-height: 24px; color: #666; font-size: 13px;}
+.exclusive-qq{ position: absolute; top:10px; right: 10px; z-index: 2;}
+.member-tit{ position: relative; float: left; width: 100%; height: 50px; border-bottom: 2px solid #eee; z-index: 1;}
+.member-tit p{float: left; height: 49px; border-bottom: 3px solid #146eb6; line-height: 47px; color: #333; font-size: 24px;}
+.member-tit a{ float: left; margin: 0 0 0 10px; line-height: 50px; color: #333;}
+.member-tit a:hover{color: #146eb6;}
+.member-subtit{ float: left; width: 100%; margin-bottom: 20px; line-height: 30px; border-bottom: 1px dashed #dfdfdf; font-size: 18px; color: #146eb6;}
+.member-detailtit{ float: left; width: 100%; margin: 10px 0; line-height: 30px; border-bottom: 2px solid #dfdfdf; font-size: 18px; color: #333;}
+.member-detailtit span{ color: #e42122; font-size: 13px; padding-left: 5px;}
+.member-con{ float: left; width: 100%; margin: 25px 0;}
+/*详情页*/
+.detail-con{ float: left; width: 100%; border-bottom: 1px solid #dfdfdf; margin-bottom: 10px; padding: 10px 0;}
+.detail-tit{ float: left; width: 100%; border-bottom: 1px solid #dfdfdf; line-height: 40px; font-size: 16px; color: #666;}
+.detail-con dl{float: left; width: 100%; margin: 5px 0;}
+.detail-con dt{ float: left; width: 120px; margin:0 10px 0 0; text-align: right; color:#333; line-height: 24px;}
+.detail-con dd{ float: left; width: 770px;}
+.detail-con dd p{ float: left; width: 100%; line-height: 24px; color:#666;}
+.detail-con .long{ float: left; width: 100%; margin: 5px 0; line-height: 24px; color:#333;}
+.carriers-con{ float: left; width: 430px;}
+.carriers-tit{ display: block; float: left; width: 100%; height: 34px; font-size: 16px; line-height: 34px; text-align: left; color: #333;}
+.attention-short{ float: left; width: 100%;}
+.attention-short span{ display: block; float: left; width: 33%; line-height: 24px; color: #333;}
+.attention-short span em{ color: #69b839;}
+.carriers-con p{ float: left; width: 100%; line-height: 24px; color: #333;}
+.carriers .img:hover{opacity: 0.8;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);}
+.carriers-tit:hover{ color: #146eb6;}
+/*站内信*/
+.letter{ float: left; width: 100%; border-top: 1px solid #dfdfdf; margin: 10px 0 0 0; }
+.letter-tit{ float: left; width: 100%; padding: 20px 0; border-bottom: 1px solid #dfdfdf;}
+.letter-tit a{ float: left; width: 150px; margin-right: 20px; }
+.letter-con{ float: left; width: 100%;}
+.letter-con dl{ float: left; width: 100%; padding: 20px 0; border-bottom: 1px solid #dfdfdf;}
+.letter-con dl dt{ float: left; width: 34px;}
+.letter-con dl .con{ float: left; width: 800px;}
+.letter-con dl .con h1{ float: left; width: 100%; height: 34px; line-height: 34px; color: #333; font-size: 16px; text-align: left;}
+.letter-con dl .con p{ float: left; width: 100%; line-height: 24px; color: #666; }
+.letter-con dl .more{ float: right; width: 90px;}
+.letter-con dl .more .time{ display: block; float: left; width: 100%; line-height: 30px; color: #333;}
+.letter-con dl .more .btn02{ float: left; margin: 5px 0;}
+/*我的积分*/
+.my-points{ float: left; width: 986px; border:2px solid #dfdfdf; margin: 10px 0 0 0; padding: 10px 0;}
+.my-points h6{ float: left; width: 96%; margin: 0 2%; height: 50px; border-bottom: 1px solid #dfdfdf; line-height: 50px; text-align: left; color: #333; font-size: 24px;}
+.my-points p{ float: left; width: 96%; margin: 0 2%; height: 50px; line-height: 50px; text-align: left; font-size: 18px; color: #333;}
+.my-points p span{ color: #e42122;}
+/*升级会员 */
+.member-upgrade{ float: left; width: 988px; border:1px solid #dfdfdf; margin: 10px 0 0 0; padding: 10px 0;}
+.upgrade-list{ float: left; width: 100%;}
+.upgrade-list li{ float: left; width: 100%; border-bottom: 1px dashed #dfdfdf; padding: 20px 0;}
+.upgrade-list li .img img{ display: block; width: 200px; height: 120px;}
+.upgrade-list li .con{ width: 700px; margin: 0 0 0 15px;}
+.upgrade-list li .con p{ float: left; width: 100%; line-height: 24px; color: #666; font-size: 14px;}
+.upgrade-list li .con .btn01{ float: left; margin: 5px 0 0 0; width: 100px;}
+/*升级会员 其他页面状态*/
+.upgrade-list li .con span{ display: block; float: left; width: 100%; line-height: 34px; font-size: 16px;}
+/*升级会员 提交成功*/
+.member-suc{ float: left; width: 100%; margin: 30px 0;}
+.member-suc h6{ float: left; width: 100%; height: 60px; border-bottom:1px solid #dfdfdf; line-height: 60px; font-size: 34px; color: #333; text-align:left;}
+.member-suc h6 i{ margin-left: 10px; color: #69b839; font-size: 40px;}
+.member-suc p{ display: block; float: left; width: 100%; margin-top: 20px; line-height: 30px; text-align: left; font-size: 20px;}
+.member-suc span{ color: #69b839;}
+/*认证供应商*/
+.attest{ float: left; width: 100%; margin: 10px 0;}
+.attest a{display: block;}
+.attest a:hover{opacity: 0.8;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);}
+.attest .attest01{ float: left;}
+.attest .attest02{ float: right;}
+/*认证供应商 个人*/
+.provision{ float: left; margin-left: 120px;}
+.provision input{float: left; margin: 5px 0 0 0;}
+.provision-tip{ float: left; margin: 0 0 0 5px; font-size: 16px; color: #666;}
+.provision-tip a{ color: #146eb6;}
+.provision-tip a:hover{ text-decoration: underline;}
+/*认证供应商 公司*/
+.warrant-btn{ float: left; margin: 5px 0 5px 120px;}
+.warrant-btn .btn01{ float: left; margin:0 10px 0 0;}
+/*承运管理 承运简介*/
+.member-edit{ float: left; width: 930px; height: 530px; margin: 30px 0 20px 25px;}
+.edit-submit{ float:left; margin: 10px 0 10px 25px;}
+/*承运管理 我的承运单*/
+.order-status{ float: left; width: 100%; margin: 10px 0;}
+.order-status dt{ float: left; width: auto; text-align: right; line-height: 24px; font-size: 14px; color: #666;}
+.order-status dd{ float: left; width: 800px;}
+.order-status dd a{ padding-right: 10px; line-height: 24px; font-size: 14px; color: #666;}
+.order-status dd a.selected,
+.order-status dd a:hover{ color: #69b839;}
+.fee{ float: left; width: 100%; line-height: 24px;}
+.fee i{ display: block; float: left; font-style: normal; line-height: 24px; font-size: 13px; color: #333;}
+.lib-tab5 .btn11{ float: left; margin: 5px 0 0 13px;}
+.lib-tab5 .order-detail{display: block; line-height: 24px; color: #146eb6;}
+.lib-tab5 .order-detail:hover{ text-decoration: underline;}
+/*供应商管理 上传资源*/
+.method{ float: left; width: 100%; margin: 20px 0;}
+.method-left{ float: left; width: 620px; border:1px solid #e6e6e6; border-bottom: none; background: #f6f6f6;}
+.method-left dt{ float: left; width: 100%; height: 40px; border-bottom: 1px solid #e6e6e6; line-height: 40px; font-size: 14px; color: #146eb6; text-align: left; text-indent: 15px;}
+.method-left dd{ float: left; width: 100%; padding: 25px 0; border-bottom: 1px solid #e6e6e6;}
+.method-left .btn12,.method-left .btn01{ position: relative; float: left; margin: 0 20px;}
+.method-edit{ float: left; width: 580px; height: 300px; margin:10px 0 10px 20px; }
+.method-tips{ float: left; width: 100%; margin: 5px 0; color: #e42122; line-height: 24px; text-align: left; text-indent: 20px;}
+.method-left p{ float: left; line-height: 40px; color: #333;}
+.method-left a{ display: block; float: left; line-height: 40px; color: #146eb6;}
+.method-left a:hover{color: #e42122;}
+.method-right{ float: right; width: 330px; min-height: 249px;_height:expression(document.body.clientHeight < 249 ? "249px" : "auto"); border:1px solid #e6e6e6; background: #f6f6f6;}
+.method-right dt{ float: left; width: 100%; height: 40px; background: #69b839; line-height: 40px; font-size: 14px; color: #fff; text-align: center;}
+.method-right dd{ float: left; width: 100%; padding: 5px 0;}
+.method-right dd p{ float: left; width: 90%; margin: 0 5%; line-height: 24px; color: #666;}
+.method-center{ float: left; width: 988px; border:1px solid #e6e6e6; border-bottom: none; background: #f6f6f6;}
+.method-center dt{ float: left; width: 100%; height: 40px; border-bottom: 1px solid #e6e6e6; line-height: 40px; font-size: 14px; color: #146eb6; text-align: left; text-indent: 15px;}
+.method-center dd{ float: left; width: 100%; padding: 25px 0; border-bottom: 1px solid #e6e6e6;}
+.method-center .btn12,.method-center .btn01{ float: left; margin: 0 20px;}
+.method-table .btn09{ behavior: none; float: right; margin: 10px 0;}
+.method-table{ float: left; width: 96%; margin: 0 0 0 2%;}
+.methodCenter-tips{ float: left; width:100%; margin: 10px 0; min-height: 150px;_height:expression(document.body.clientHeight < 150 ? "150px" : "auto"); border:1px solid #e6e6e6; background: #f6f6f6;}
+.methodCenter-tips dt{ float: left; width: 100%; height: 40px; background: #69b839; line-height: 40px; font-size: 14px; color: #fff; text-align: left; text-indent: 10px}
+.methodCenter-tips dd{ float: left; width: 100%; padding: 5px 0;}
+.methodCenter-tips dd p{ float: left; width: 94%; margin: 0 3%; line-height: 24px; color: #666;}
+.method-table select{ height: 26px; line-height: 26px; border: 1px solid #dfdfdf;}
+.method-table select option{ height: 26px; line-height: 26px; }
+/*非标准修改*/
+.reason{ font-size: 14px; font-weight: bold;}
+.reason dt{ color: #e42122;}
+.reason dd p{ color: #333;}
+/*供应商管理 联系方式*/
+.cg-contact{ float: left; width: 100%; }
+.cg-contact .detail-con{position: relative; min-height: 120px;_height:expression(document.body.clientHeight < 120 ? "120px" : "auto"); z-index: 1;}
+.cg-contact .detail-con .member-exclusive{ top:0;}
+.back{ float: left; margin: 10px 0;}
+/*我的承运单*/
+.price-input{display: none;}
+.price-sub{ display: none;}
+/*上传交货凭证*/
+.proof{ float: left; width: 1198px; border:1px solid #dfdfdf; margin: 10px 0; padding: 10px 0; background: #fff;}
+.process-outside{ float: left; width: 1158px; height: 70px; margin: 0 0 0 20px; overflow: hidden;}
+.proof-process{ float: left; width: 120%; height: 70px;margin-left: -65px; background: url(../images/process-bg.png) repeat-x top;}
+.proof-process li{ float: left; width: 255px; height: 39px; background: url(../images/process-pic01.png) no-repeat center left;}
+.proof-process li p{ text-align: center; line-height: 39px; font-size: 18px; color: #666;}
+.proof-process li span{ display: block; float: left; width: 100%; text-align: center; line-height: 31px; color: #666; font-size: 12px;}
+.proof-process li.selected{ background:url(../images/process-pic02.png) no-repeat center left; margin-right: -50px;}
+.proof-process li.selected p{ color: #fff;}
+/*物流跟踪*/
+.logistics-tracking{ float: left; width: 100%; margin: 10px 0;}
+.logistics-tracking p{ float: left; width: 100%; line-height: 24px; color: #666;}
+.logistics-tracking p span{ color: #e42122;}
+.proof .detail-con dl{ width: 900px;}
+.proof .detail-con dl dd{ color: #666; line-height: 24px;}
+/*申诉评价*/
+.appeal-pic{ float: left; width: 100%;}
+.appeal-pic img{ display: block; float: left; width: 148px; height: 110px; margin: 10px 20px 10px 0;}
+.applet-btn{ float: left; margin: 10px 0;}
+.applet-btn a{ float: left; width: 120px;}
+.applet-btn .btn01{ margin-left: 120px;}
+.applet-btn .btn02{ margin-left: 20px;}
+/*报价单*/
+.accordion-quote{ float: left; width: 100%;}
+.accordion-quote dt{position: relative; float: left; width: 100%; padding: 10px 0; border-bottom: 1px solid #dfdfdf; z-index: 1;}
+.accordion-quote dd{position: relative; float: left; width: 100%; padding: 10px 0; border-bottom: 1px solid #dfdfdf; z-index: 1;}
+.accordion-quote .quote-btn{position: absolute; top:20px; right:0; width: 100px; z-index: 2;}
+.accordion-quote p{ float: left; width: 100%; line-height: 30px; color: #666; font-size: 14px;}
+.td-center{text-align: center;}
+.td-center p{ text-align: center; }
+/*托运方 评价*/
+.carriers-attention{ float: left; width: 100%; border-bottom: 1px solid #dfdfdf; margin: 10px 0; padding: 15px 0;}
+.carriers-attention dt{ float: left;}
+.carriers-attention dt .img{ width: 90px; height: 90px; margin: 0 35px;
+	-moz-border-radius:45px; -webkit-border-radius:45px; border-radius:45px; behavior: url(pie.htc); overflow: hidden;}
+.carriers-attention dt .img img{ width: 90px; height: 90px;}
+/*托运方 预支付款*/
+.order-depot{background: #f7f7f7;}
+.order-depot h6{ width: 100%; font-size: 18px; line-height: 40px; color: #000;}
+.order-totalPrice{ vertical-align: top;}
+.order-totalPrice div{ float: left; width: 100%; line-height: 24px; font-size: 14px; color: #333; text-align: right;}
+.order-totalPrice div span{ color: #e42122;}
+/*托运方 托运单详情*/
+.complaints{ float: left; width: 100%; line-height: 30px; color: #666; font-size: 13px;}
+.complaints a{ color: #146eb6;}
+.complaints a:hover{text-decoration: underline;}
+.complaints-btn{ color: #146eb6; padding: 0 0 0 5px;}
+.complaints-btn:hover{text-decoration: underline;}
+/*平台支付*/
+.member-right .platform .controls-radio .radio{ margin-top: 25px;}
+.platform .controls-radio{ margin-right: 10px;}
+.platform .controls-radio img{ display: block; border:1px solid #dfdfdf; width: 240px; height: 60px;}
+.platform .btn01{ float: left; margin: 10px 0 10px 29px;}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	
+	
+	
+	<!-- 引入实体映射文件 -->
+	<mappers>
+		<mapper resource="cn/sz/gl/pojo/VipUser.xml" />
+		<mapper resource="cn/sz/gl/pojo/CompanyVip.xml" />
+		<mapper resource="cn/sz/gl/pojo/Dept.xml" />
+		<mapper resource="cn/sz/gl/pojo/HatArea.xml" />
+		<mapper resource="cn/sz/gl/pojo/HatCity.xml" />
+		<mapper resource="cn/sz/gl/pojo/HatProvince.xml" />
+		<mapper resource="cn/sz/gl/pojo/Menu.xml" />
+		<mapper resource="cn/sz/gl/pojo/PersonalVip.xml" />
+		<mapper resource="cn/sz/gl/pojo/Priviliage.xml" />
+		<mapper resource="cn/sz/gl/pojo/Role.xml" />
+		<mapper resource="cn/sz/gl/pojo/VipUser.xml" />
+		<mapper resource="cn/sz/gl/pojo/TurnImage.xml" />
+	</mappers>
+	
+	
+	<!-- 配置的参数 -->
+</configuration>

@@ -1,0 +1,225 @@
+/*超鲜物流*/
+.logistics header .logo{width: 280px; height: 107px;}
+.logistics header .logo img{display: block; width: 280px; height: 107px;}
+.logistics .slogan{ float: left; height: 70px; border-left:1px solid #f3f3f3; margin: 18px 0 0 0; line-height: 70px; color: #666; font-size: 26px; text-indent: 20px;}
+.logistics nav{ height: 36px; background: url(../images/logistics-nav01.png) repeat-x;}
+.logistics nav dd{ background: url(../images/logistics-nav02.png) no-repeat center right;}
+.logistics nav dd a.selected{ background: #008c3e;}
+.logistics nav dd a:hover{background: #4ece86;}
+.logistics footer{padding: 0; border:none;}
+.logistics .copy{background-color: #1a2315; margin-top:0; }
+.logistics .link dl dt p{ border-color: #008c3e;}
+/*超鲜物流 banner*/
+.logistics-banner{display: block; float: left; margin: 10px 0 10px 10px; transition:all .2s ease-in-out;}
+.logistics-banner img{ display: block; width: 580px; height: 250px;}
+.logistics-banner:hover{opacity: 0.8;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);}
+/*超鲜物流 最新动态*/
+.logistics-news{ float: right; width: 248px; margin: 10px 0; border:1px solid #eee;-moz-border-radius:10px 10px 0 0; 
+           -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;behavior: url(pie.htc); overflow: hidden;}
+.logistics-news .tit{width: 100%; height: 42px; background:#008c3e; line-height: 42px; text-align: left; color: #fff; font-size: 16px; text-indent: 20px;}
+.logistics-news .con{ width: 100%;}
+.logistics-news dl{ float: left; width: 100%; border-top: none;}
+.logistics-news dl dt{ float: left; width: 100%; height: 40px; background: #b0e78e; }
+.logistics-news dl dd{ float: left; width: 100%; height: 206px;}
+.logistics-news dl dd ul li a{ display: block; float: left; width: 94%; height: 30px; margin: 0 3%; line-height: 30px; color: #666;
+            overflow: hidden; text-overflow:ellipsis; white-space:nowrap;}
+.logistics-news dl dd ul li a i{ color: #008c3e; padding: 0 5px;}
+.logistics-news dl dd ul li:hover{ color: #69b839;}
+/*超鲜物流 图片滚动*/
+.logistics-scroll{ float: left; width: 1198px; margin: 10px 0; border:1px solid #e6e6e6; background: #fff;
+           -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;behavior: url(pie.htc); overflow: hidden;}
+.logistics-scroll dt{ float: left; width: 40px; height: 106px; background: #f6f6f6; border-right:1px solid #e6e6e6; font-size: 14px; color: #146eb6; text-align: center;}
+.logistics-scroll dd{ float: left; width: 1157px;}
+/*超鲜物流 活动展示*/
+.logistics-acitve{ float:left; width: 100%; overflow: hidden;}
+.logistics-acitve .tit{ float: left; width:1198px; height: 51px; border:1px solid #e6e6e6; background: url(../images/logistics-bg01.png) repeat-x;-moz-border-radius:8px 8px 0 0; -webkit-border-radius:8px 8px 0 0;}
+.logistics-acitve .tit p{ height: 49px; padding: 0 10px;  border-bottom: 3px solid #146eb6; font-size: 18px; color: #146eb6; line-height: 47px; text-align: center;}
+.logistics-acitve .con{ float: left; width: 110%; margin: 10px 0;}
+.logistics-acitve .con a{ position: relative; display: block; float: left; margin: 0 11px 0 0; transition:all .2s ease-in-out;}
+.logistics-acitve .con a img{display: block; width: 292px; height: 220px;-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;behavior: url(pie.htc);}
+.logistics-acitve .con a:hover{opacity: 0.8;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);}
+/*超鲜物流 热门路线*/
+.logistics .popular-routes{position: relative; float: left; width: 930px; margin: 10px 0; border:1px solid #e6e6e6;
+           -moz-border-radius:8px 8px 0 0; -webkit-border-radius:8px 8px 0 0; border-radius:8px 8px 0 0;behavior: url(pie.htc); overflow: hidden; z-index: 1;}
+.logistics .popular-routes .tit{ width: 100%; height: 51px; background: url(../images/logistics-bg01.png) repeat-x;}
+.logistics .popular-routes .tit p{ height: 47px; padding: 0 10px;  border-bottom: 3px solid #008c3e; font-size: 18px; color: #008c3e; line-height: 47px; text-align: center;}
+.logistics .popular-routes .con{ width: 100%;}
+.logistics .popular-routes .con div{ float: left; width: 100%;}
+.logistics .popular-routes .con div a{ display: block; width: 100%; height: 24px; margin: 0 0 11px 0; line-height: 24px; color: #666;}
+.logistics .popular-routes .con div a div{ float: left;}
+.logistics .popular-routes .con div a i{ display: block; float: left; margin: 0 5px; line-height: 24px;}
+.logistics .popular-routes .con div a .city{ width: 80px;}
+.logistics .popular-routes .con div a .wt{ width: 150px; text-align: center;}
+.logistics .popular-routes .con div a .kg{ width: 90px; text-align: center;}
+.logistics .popular-routes .con .routes-left{ width: 46%; margin: 18px 0 19px 3%; border-right:1px solid #e6e6e6;}
+.logistics .popular-routes .con .routes-right{width: 46%; margin: 18px 0 19px 3%; }
+.logistics .popular-routes .con div a:hover{ color: #008c3e;}
+/**超鲜物流 热门城市*/
+.logistics .popular-city{float: right; width: 250px; margin: 10px 0; border:1px solid #e6e6e6;
+           -moz-border-radius:8px 8px 0 0; -webkit-border-radius:8px 8px 0 0; border-radius:8px 8px 0 0;behavior: url(pie.htc); overflow: hidden; }
+.logistics .popular-city .tit{position: relative;  width: 100%; height: 51px; background: url(../images/logistics-bg01.png) repeat-x;z-index: 1;}
+.logistics .popular-city .tit a{ position: absolute; top:0; right: 5px; z-index: 2; color: #333; font-size: 13px; line-height: 51px;}
+.logistics .popular-city .tit a i{ margin-left:5px; font-size: 16px;}
+.logistics .popular-city .tit p{ height: 47px; padding: 0 10px;  border-bottom: 3px solid #008c3e; font-size: 18px; color: #008c3e; line-height: 47px; text-align: center;}
+.logistics .popular-city .con{ width: 100%; height: 212px; overflow: hidden;}
+.logistics .popular-city .city-list{ float: left; width: 90%; margin: 10px 5%;}
+.logistics .popular-city .con a{ display: block; float: left; line-height: 28px; color: #666; padding:0 5px; }
+.logistics .popular-city .con a:hover{ color: #008c3e;}
+.logistics .popular-city .tit a:hover{ color: #008c3e;}
+/*搜索页 菜单左侧*/
+.search-left dl{ float: left; width: 188px;border: 1px solid #e6e6e6; border-bottom:none;}
+.search-left dt{ float: left; width: 100%; height: 44px; background: #69b839; line-height: 44px; color: #fff; text-align: left; text-indent: 15px; font-size: 22px;}
+.search-left dd{ float: left; width: 100%;}
+.menuPro-first{ display: block; float: left; width: 100%; height: 38px; border-bottom: 1px solid #e6e6e6; line-height: 38px; font-size: 14px; text-align: left; text-indent: 8px; color: #666;}
+.menuPro-first i{ margin-right: 5px;}
+.menuPro-first:hover{background:#e9f5ff; border-color:#acd598; color: #69b839;}
+.menuPro-first.selected{background:#e9f5ff; border-color:#acd598; color: #69b839;}
+.menuPro-second{ display: none; float: left; width: 100%;}
+.menuPro-second a{ display: block; float: left; width: 100%; height: 34px; border-bottom: 1px solid #e6e6e6; line-height: 34px; font-size: 12px; text-align: left; text-indent: 15px;}
+.menuPro-second a i{ margin-right: 5px;}
+.menuPro-second a:hover{color: #69b839;}
+/*搜索页 广告*/
+.search-add{ display: block; float: left; width: 100%; margin: 20px 0; transition:all .2s ease-in-out;}
+.search-add img{ display: block; width: 190px; height: 300px;}
+.search-add:hover{opacity: 0.8;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);}
+/*搜索表格*/
+.search-table{ float: left; width: 100%; margin: 10px 0;}
+.search-table table{float: left; width: 100%; margin: 10px 0;}
+.search-table table th{ height: 44px; background: #e9f5ff; border:1px solid #e6e6e6; font-size: 16px; font-weight: normal; color: #333;}
+.search-table table td{ border:1px solid #e6e6e6; padding: 15px 5px; color: #333; text-align: center; vertical-align: middle;}
+.search-table .btn04{ margin: 5px auto;}
+/*资源*/
+.purchase-left{ float: left; width: 930px;}
+.purchase-left dl{ float: left; width: 100%; border-top: 1px solid #dfdfdf;}
+.purchase-left dl dd{position: relative; float: left; width: 100%; padding: 20px 0; border-bottom: 1px solid #dfdfdf; z-index: 1;}
+.purchase-left dl dd:hover{ background: #f5fbff;}
+.purchase-left dl dd div{ float: left; width: 780px; margin: 2px 0 2px 40px;}
+.purchase-left dl dd i{ position:absolute; top:25px; left:5px; font-size: 26px; color: #69b839; z-index: 2;}
+.purchase-left .tit a{ display: block; float: left; height: 24px; line-height: 24px; color: #333; font-size: 14px;}
+.purchase-left .tit a:hover{color: #69b839;}
+.purchase-left .tit span{display: block; float: left; line-height: 24px;}
+.purchase-left .tit span.goOn{color: #69b839;}
+.purchase-left .intro{ color: #666;}
+.purchase-right{ float: right; width: 250px;}
+.purchase-right .btn05{ float: left; margin-bottom: 10px;}
+/*热门采购单*/
+.inventory{ float: right; width: 248px; margin: 10px 0; border:1px solid #eee;-moz-border-radius:10px 10px 0 0; -webkit-border-radius:10px 10px 0 0; border-radius:10px 10px 0 0;behavior: url(pie.htc); overflow: hidden;}
+.inventory .tit{width: 100%; height: 52px; background: url(../images/liveTrading-icon01.png) repeat-x #69b839; line-height: 52px; text-align: left; color: #fff; font-size: 22px; text-indent: 20px;}
+.inventory .con{ width: 100%;}
+.inventory dl{ float: left; width: 100%; border-top: none;}
+.inventory dl dt{ float: left; width: 100%; height: 40px; background: #b0e78e; }
+.inventory dl dt div{ float: left; width: 25%; height: 40px; line-height: 40px; text-align: center; color: #000;
+                   overflow: hidden; text-overflow:ellipsis; white-space:nowrap;}
+.inventory dl dd{ float: left; width: 100%; height: 422px;}
+.inventory dl dd ul li a{ display: block; float: left; width: 94%; margin: 0 3%; border-bottom: 1px solid #e6e6e6;}
+.inventory dl dd ul li div{ float: left;height: 30px; line-height: 30px; text-align: center; color: #333;
+                   overflow: hidden; text-overflow:ellipsis; white-space:nowrap;}
+.inventory dl dd ul li .name{ width: 70%;}
+.inventory dl dd ul li .state{ width: 30%; text-align: left;}
+.inventory dl dd ul li .state .goOn{ color: #69b839;}
+.inventory dl dd ul li:hover div{ color: #69b839;}
+/*资源广告*/
+.purchase-add{ display: block; float: left; width: 100%; margin: 10px 0; transition:all .2s ease-in-out;}
+.purchase-add img{ display: block; width: 250px; height: 110px;}
+.purchase-add:hover{opacity: 0.8;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);}
+/*用户登陆*/
+.login-form{ float: left; width: 100%;}
+.login-left{ float: left; margin: 30px 0 30px 30px;}
+.login-left img{ display: block; width: 602px; height: 348px;}
+.login-right{ float: left; margin: 30px 0 0 30px; width: 400px;}
+.login-right .controls{ float: left; width: 100%; margin-bottom: 20px;}
+.login-controls{ float: left; width: 400px; height: 30px; line-height: 30px;}
+.login-controls p{ float: left; font-size: 14px; color: #666;}
+.login-tools{ float: right; font-size: 14px; color: #666;}
+.login-tools a{ color: #146eb6;}
+.login-tools a:hover{ text-decoration: underline;}
+.login-right input{ float: left;}
+.login-right .code-img{ display: block; float: left; width: 69px; height: 25px; margin: 5px 15px 0 15px;}
+.login-right .code-change{display: block; float: left; font-size: 14px; color: #666; line-height: 32px;}
+.login-right .code-change:hover{ color: #146eb6;}
+/*用户注册*/
+.content-reg{ float: left; width: 1198px; border:1px solid #e6e6e6;}
+.reg-tit{ position: relative; float: left; width: 1100px; height: 60px; border-bottom:2px solid #e6e6e6; margin: 30px 0 0 49px; z-index: 1;}
+.reg-tit p{ position: relative; float: left; height: 57px; /*margin-bottom: -2px;*/ border-bottom: 5px solid #146eb6; font-size: 30px; line-height: 57px; color: #666;}
+.reg-progress{ position: absolute; height: 40px;bottom: -2px; left:200px; z-index: 2;}
+.reg-progress span{ display: block; float: left; width: 110px; height: 40px; background: #eee; text-align: center; line-height: 40px; font-size: 18px; color: 666;
+              -moz-border-radius:8px 8px 0 0; -webkit-border-radius:8px 8px 0 0; border-radius:8px 8px 0 0;behavior: url(pie.htc);}
+.reg-progress i{ display: block; float: left; margin: 0 15px; font-size: 20px; color: #999; line-height: 40px;}
+.reg-progress span.selected{ background: #69b839; color: #fff;}
+.reg-form{float: left; width: 1100px; margin: 30px 0 30px 49px;}
+.reg-form .controls{ position: relative; float: left; width: 100%; margin: 15px 0; z-index: 1;}
+.reg-form .controls p{ float: left; width: 180px; text-align: right; line-height: 32px; font-size: 14px; color: #666;}
+.reg-form .controls input{ float: left;}
+.reg-form .controls span{ color: #e42122;}
+.reg-form .btn06,
+.reg-form .btn07{ margin-left: 180px;}
+.reg-form .pact{ display: block; float: left; margin-left: 5px; line-height: 44px; font-size: 14px; color: #666;}
+.reg-form .pact:hover{ color: #438bc5;}
+.reg-suc{ float: left; width: 100%; margin: 30px 0;}
+.reg-suc h6{ float: left; width: 900px; height: 70px; margin:10px 0 10px 200px; border-bottom: 1px solid #dfdfdf; line-height: 70px; font-size: 30px; color: #666; text-align: left;}
+.reg-suc h6 i{ margin-left: 10px; color: #69b839; font-size: 50px;}
+.reg-suc p{ float: left; width: 900px; height: 40px; margin-left: 200px; line-height: 40px; color: #999; font-size: 16px; text-align: left;}
+.reg-suc a{ float: left; width: 120px; height: 40px; line-height: 40px; text-align: center; font-size: 16px;}
+.reg-suc .reg-btn{ float: left; width: 100%; margin: 20px 0;}
+.reg-suc .reg-btn .btn05{ margin-left: 200px;}
+.reg-suc .reg-btn .btn04{ margin-left: 140px;}
+/*资源 快速预览*/
+.zy-infor{ float: left; width: 1198px; border:1px solid #dfdfdf; margin: 10px 0; padding: 10px 0;}
+.zy-infor dl{ float: left; width: 100%; margin: 5px 0;}
+.zy-infor dl dt{ float: left; width: 110px; color: #333; font-size: 13px; text-align: right;line-height: 24px;}
+.zy-infor dl dd{ float: left;  width: 1000px; text-align: left; color: #666; line-height: 24px;}
+/*资源上传资源单*/
+#zy-upload{ float: left; width: 100%; margin: 10px 0;}
+#zy-upload .member-right{ float: left; width:100%; }
+#zy-upload .member-upgrade{ width: 1198px;}
+#zy-upload .lib-tab5 .lib-content{ width: 100%;}
+#zy-upload .method-center{ width: 1198px;}
+#zy-upload .method-left{ width: 840px;}
+#zy-upload .method-edit{ width: 800px;}
+/*采购 发布采购单*/
+#caigou .member-right{ float: left;}
+#caigou .method-table{ width: 100%; margin: 10px 0;}
+#caigou .method-table table td{ text-align: center; color: #666;}
+#caigou h6{ float: left; width: 100%; line-height: 30px; text-align: left; font-size: 14px; color: #333;}
+.no-gys{ float: left; width: 100%; margin: 20px 0;}
+.no-tit{ float: left; width: 100%; text-align: center; line-height: 40px; font-size: 30px; color: #333;}
+.no-btns{ float: left; width: 100%; margin: 30px 0;}
+.no-btns a{ float: left; width: 120px; height: 34px; line-height: 34px;}
+.no-btns .btn01{ margin: 0 50px 0 350px;}
+/*商品分类 详情页*/
+.detail-btns{ float: left; width: 100%; margin:20px 0;}
+.detail-btns a{ float: left;}
+.detail-btns .btn01{ margin: 0 0 0 110px;}
+.detail-btns .btn02{ margin: 0 0 0 20px;}
+/*购物车*/
+#cart{ float: left; width: 100%; margin: 10px 0;}
+#cart table{ float: left; table-layout: fixed; width: 100%;}
+#cart thead tr{ background: #f7fbff; border-top: 1px solid #dfdfdf; border-bottom: 1px solid #dfdfdf; margin: 0 0 10px 0;}
+#cart th{ padding: 15px 0; font-size: 16px; color: #146eb6; font-weight: normal;}
+#cart td{position: relative; border:1px solid #dfdfdf; vertical-align: middle; text-align: center; color: #666; z-index: 1;}
+#cart table .btn04{ margin: 5px auto;}
+#cart table input{ width: 15px; height: 15px;}
+#cart table .check-all{display: block;  float: left; margin: 5px 2px 0 15px;}
+#cart table label{ display: block; float: left;}
+#cart .order-tit td{ padding: 10px 0; background: #f7f7f7; font-size: 18px; color: #333; text-align: left; line-height: 30px;}
+#cart .order-tit td input{ margin-left: 15px;}
+#cart .order-con td{ padding: 15px 0;}
+#cart table  td em{ color: #d60000;}
+#cart .cart-num a{ display: block; float: left; width: 13px; height: 13px; margin-top: 4px; border:1px solid #c9c9c9; line-height: 13px; text-align: center; color: #000;}
+#cart .cart-num .num-less{ margin-left: 30px;}
+#cart .cart-num .num-input{ display: block; float: left; width: 50px; height: 20px; margin: 0 3px; border:1px solid #c9c9c9; line-height: 20px; text-align: center; color: #000;}
+#cart .cart-num a:hover{ color: #146eb6; border-color: #146eb6;}
+#cart .accounts{ border:1px solid #dfdfdf;}
+#cart .accounts td{ background: #fff; padding: 20px 0; border:none;}
+#cart .accounts .check-all{ float: left;}
+#cart .accounts  label{ display: block; float:left; margin: 4px 10px 0 5px;}
+#cart .accounts .del-all{ display: block; float: left; margin: 4px 0 0 10px; color: #666;}
+#cart .accounts .del-all:hover{ color: #d60000;}
+#cart .accounts div{ float: left; font-size: 14px; color: #666; line-height: 30px;}
+#cart .total-price{ margin:0  50px;}
+#cart .accounts-btn{ display: block; float: left; width: 190px; height: 32px; background: #e25500; border:1px solid #e25500; line-height: 32px; text-align: center; color: #fff; font-size: 14px; letter-spacing:3px; cursor: pointer;
+      -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px;behavior: url(pie.htc); overflow: hidden; }
+#cart .accounts-btn:hover{ background-color: #fff; color:#e25500;}
+.cart-null{ float: left; width: 100%; margin: 100px 0;}
+.cart-null p{ float: left; color: #666; font-size: 24px; margin: 0 0 0 400px;}
+.cart-null .btn01{ float: left; margin: 0 0 0 10px;}

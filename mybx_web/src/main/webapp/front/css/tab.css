@@ -1,0 +1,50 @@
+/*选项卡样式*/
+.lib-tab1{ float: left; width:100%;overflow: hidden;}
+.lib-tab1 .lib-menu{ float: left; width: 103%; height:42px;  border-right: 1px solid #e6e6e6;}
+.lib-tab1 .lib-menu li{ float: left; width:83px; height: 42px; border-right:1px solid #e6e6e6; background: #f6f6f6; color: #666; font-size: 14px; text-align: center; line-height: 42px; cursor: pointer;}
+.lib-tab1 .lib-menu li.hover,
+.lib-tab1 .lib-menu li:hover{ color: #fff; background: #00589e;}
+.lib-tab1 .lib-content{ float: left; width: 100%;}
+
+.lib-tab2{ float: left; width:100%;overflow: hidden;}
+.lib-tab2 .lib-menu{ float: right; height:42px; margin: 10px 10px 0 0;}
+.lib-tab2 .lib-menu li{ float: left; width:120px; height: 42px; margin-right: 1px; background:#cae7ff; color: #666; font-size: 14px; text-align: center; line-height: 42px; cursor: pointer;
+-moz-border-radius:8px 8px 0 0; -webkit-border-radius:8px 8px 0 0; border-radius:8px 8px 0 0;behavior: url(pie.htc);}
+.lib-tab2 .lib-menu li.hover,
+.lib-tab2 .lib-menu li:hover{ color: #fff; background: url(../images/popularRoutes-icon01.png) repeat-x #146eb6;}
+.lib-tab2 .lib-content{ float: left; width: 938px; background: #fff; border:1px solid #e6e6e6; border-top: 3px solid #146eb6;}
+
+.lib-tab3{ float: left; width:100%;overflow: hidden; background: #f9f9f9;}
+.lib-tab3 .lib-menu{ float: left; width: 100px; height: 170px; overflow: hidden;}
+.lib-tab3 .lib-menu li{ float: left; width:99px; height: 56px; background: #e6f7ed; border-right:1px solid #9dd0b2; border-bottom:1px solid #9dd0b2; color: #333; font-size: 14px; text-align: center; line-height: 56px; cursor: pointer;}
+.lib-tab3 .lib-menu li i{ padding-right: 5px;}
+.lib-tab3 .lib-menu li.hover{ color: #000; background:#fff;border-right:1px solid #fff;}
+.lib-tab3 .lib-menu li:hover{ color: #000; background:#fff;}
+.lib-tab3 .lib-content{ float: left; width: 250px; height: 170px;background: #fff;}
+
+.lib-tab4{ position: relative; float: left; width:100%;overflow: hidden; z-index: 1;}
+.lib-tab4 .btn02{ position: absolute; top:10px; right: 0; z-index: 2;}
+.lib-tab4 .lib-menu{ float: left; height:42px; margin: 10px 10px 0 0;}
+.lib-tab4 .lib-menu li{ float: left; width:200px; height: 42px; margin-right: 5px; background:#cae7ff; color: #666; font-size: 18px; text-align: center; line-height: 42px; cursor: pointer;
+-moz-border-radius:8px 8px 0 0; -webkit-border-radius:8px 8px 0 0; border-radius:8px 8px 0 0;behavior: url(pie.htc);}
+.lib-tab4 .lib-menu li.hover,
+.lib-tab4 .lib-menu li:hover{ color: #fff; background: url(../images/popularRoutes-icon01.png) repeat-x #146eb6;}
+.lib-tab4 .lib-content{ float: left; width: 1198px; background: #fff;border-top: 3px solid #146eb6;}
+
+.lib-tab5{ position: relative; float: left; width:100%; margin: 10px 0; overflow: hidden; z-index: 1;}
+.lib-tab5 .btn02{ position: absolute; top:10px; right: 0; z-index: 2;}
+.lib-tab5 .lib-menu{ float: left; height:42px; margin: 10px 10px 0 0;}
+.lib-tab5 .lib-menu li{ float: left; width:200px; height: 42px; margin-right: 5px; background:#cae7ff; color: #666; font-size: 18px; text-align: center; line-height: 42px; cursor: pointer;
+-moz-border-radius:8px 8px 0 0; -webkit-border-radius:8px 8px 0 0; border-radius:8px 8px 0 0;behavior: url(pie.htc);}
+.lib-tab5 .lib-menu li.hover,
+.lib-tab5 .lib-menu li:hover{ color: #fff; background: url(../images/popularRoutes-icon01.png) repeat-x #146eb6;}
+.lib-tab5 .lib-content{ float: left; width: 990px; background: #fff;border-top: 3px solid #146eb6;}
+
+.lib-tab6{ position: relative; float: left; width:100%; margin-top: -42px; overflow: hidden; z-index: 1;}
+.lib-tab6 .lib-menu{ float: left; width: 100%; height:41px; border-bottom: 1px solid #008c3e;}
+.lib-tab6 .lib-menu li{ float: right; width: auto; height: 41px; padding: 0 20px; margin-right: 5px; background:#e6e6e6; color: #666; font-size: 14px; text-align: center; line-height: 41px; cursor: pointer;
+-moz-border-radius:8px 8px 0 0; -webkit-border-radius:8px 8px 0 0; border-radius:8px 8px 0 0;behavior: url(pie.htc);}
+.lib-tab6 .lib-menu li.hover,
+.lib-tab6 .lib-menu li:hover{ color: #fff; background: #008c3e;}
+.lib-tab6 .lib-content{ float: left; width: 980px; background: #fff;}
+

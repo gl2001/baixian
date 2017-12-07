@@ -1,0 +1,72 @@
+/* 内页广告*/
+.banner-page{ display: block; float: left; width: 100%;min-width: 1200px;_width:expression(document.body.clientWidth < 1200 ? "1200px" : "auto"); height: 150px;}
+/*首页banner*/
+.banner-index{ position: relative; width: 729px; height: 404px; float: left; margin: 16px 0 0 210px; overflow:hidden;z-index: 1;}
+.banner-index .hd{ height:18px; overflow:hidden; position:absolute; left:0; bottom:5px; z-index:1;}
+.banner-index .hd ul{ overflow:hidden; zoom:1; float:left;}
+.banner-index .hd li{ float: left; width: 18px; height: 18px; margin-right: 5px; background: #333; text-align: center; line-height: 18px; color: #fff;
+                     -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; behavior: url(pie.htc); cursor: pointer;}
+.banner-index .hd ul li.on{ background:#b61b1f; color:#fff;}
+.banner-index .bd{ position:relative; height:100%; z-index:0;}
+.banner-index .bd li{ zoom:1; vertical-align:middle;}
+.banner-index .bd img{ display:block; width: 729px; height: 404px;}
+.banner-index .prev,
+.banner-index .next{ position:absolute; left:3%; top:50%; margin-top:-25px; display:block; width:32px; height:40px; background:url(../images/slider-arrow.png) -110px 5px no-repeat; filter:alpha(opacity=50);opacity:0.5;   }
+.banner-index .next{ left:auto; right:3%; background-position:8px 5px; }
+.banner-index .prev:hover,
+.banner-index .next:hover{ filter:alpha(opacity=100);opacity:1;}
+/*交易行情01*/
+.banner-quotes01{ position: relative; width: 100%; height: 360px; float: left;overflow:hidden;z-index: 1;}
+.banner-quotes01 .hd{ height:8px; overflow:hidden; position:absolute; left:0; bottom:20px; z-index:1;}
+.banner-quotes01 .hd ul{ overflow:hidden; zoom:1; float:left;}
+.banner-quotes01 .hd li{ float: left; width: 8px; height: 8px; margin:0 3px; background: #fff;
+                     -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;behavior: url(pie.htc); cursor: pointer;}
+.banner-quotes01 .hd ul li.on{ background:#69b839;}
+.banner-quotes01 .bd{ position:relative; height:100%; z-index:0;}
+.banner-quotes01 .bd li{ width: 100%; height: 360px; background: #00589e; zoom:1;}
+/*交易行情02*/
+.banner-quotes02{ position: relative; width: 280px; height: 460px; float: left;overflow:hidden;z-index: 1;}
+.banner-quotes02 .hd{ height:20px; overflow:hidden; position:absolute; left:0; bottom:15px; z-index:1;}
+.banner-quotes02 .hd ul{ overflow:hidden; zoom:1; float:left;}
+.banner-quotes02 .hd li{ float: left; width: 20px; height: 20px; margin:0 3px; background: #438bc5; color: #fff; line-height: 20px; text-align: center;
+                     -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;behavior: url(pie.htc); cursor: pointer;}
+.banner-quotes02 .hd ul li.on{ background:#69b839;}
+.banner-quotes02 .bd{ position:relative; height:100%; z-index:0;}
+.banner-quotes02 .bd li{ width: 100%; height: 360px; background: #00589e; zoom:1;}
+/*实时交易*/
+.txtScroll-top{ overflow:hidden; position:relative;}
+.txtScroll-top .bd{ float: left; width: 100%;}
+.txtScroll-top .bd ul{ float: left; width: 100%;}
+.txtScroll-top .bd li{ float: left; width: 100%; height: 32px;}
+/*超鲜物流*/
+.pro-scroll{ position: relative; float: left; width: 100%; background: #fff; z-index: 1;}
+.pro-scroll .bd{ position: relative; margin: 15px 0 0 50px; z-index:1;}
+.pro-scroll .bd ul{ float: left; width: 1000px; overflow: hidden;}
+.pro-scroll .bd ul li{ position: relative; float: left; margin-right: 5px; width: 170px; height: 75px; border:1px solid #e6e6e6; z-index: 2; transition:all .2s ease-in;
+	        -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;behavior: url(pie.htc); overflow: hidden;}
+.pro-scroll .bd ul li img{ width: 170px; height: 75px;}
+.pro-scroll .bd ul li:hover{ border-color:#146eb6;}
+.pro-scroll .arrow{ float: none;}
+.pro-scroll .arrow .prev,
+.pro-scroll .arrow .next{ position: absolute; top:45%; width: 24px; height: 24px; background: #eee; text-align: center; line-height: 24px; font-size: 14px; color: #333;
+          -moz-border-radius:15px; -webkit-border-radius:15px; border-radius:15px;behavior: url(pie.htc); overflow: hidden;z-index: 4; transition:all .2s ease-in-out; }
+.pro-scroll .arrow .prev{left:10px;}
+.pro-scroll .arrow .next{right:10px;}
+.pro-scroll .arrow .prev:hover,
+.pro-scroll .arrow .next:hover{ background-color:#146eb6; color: #fff;}
+
+/*积分商城*/
+.banner-jfsc{ position: relative; width: 680px; height: 360px; float: left; margin: 0; overflow:hidden;z-index: 1;}
+.banner-jfsc .hd{width: 100%;  height:18px; overflow:hidden; position:absolute; left:0; bottom:5px; z-index:1;}
+.banner-jfsc .hd ul{ margin-right: 10px; overflow:hidden; zoom:1; float:right; text-align: center;}
+.banner-jfsc .hd li{float: left; width: 18px; height: 18px; margin-right: 5px; background: #008ed6; text-align: center; line-height: 18px; color: #fff;
+                     -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; behavior: url(pie.htc); cursor: pointer;}
+.banner-jfsc .hd ul li.on{ background:#84c125; color:#fff;}
+.banner-jfsc .bd{ position:relative; height:100%; z-index:0;}
+.banner-jfsc .bd li{ zoom:1; vertical-align:middle;}
+.banner-jfsc .bd img{ display:block; width: 680px; height: 360px;}
+.banner-jfsc .prev,
+.banner-jfsc .next{ position:absolute; left:3%; top:50%; margin-top:-25px; display:block; width:32px; height:40px; background:url(../images/slider-arrow.png) -110px 5px no-repeat; filter:alpha(opacity=50);opacity:0.5;   }
+.banner-jfsc .next{ left:auto; right:3%; background-position:8px 5px; }
+.banner-jfsc .prev:hover,
+.banner-jfsc .next:hover{ filter:alpha(opacity=100);opacity:1;}

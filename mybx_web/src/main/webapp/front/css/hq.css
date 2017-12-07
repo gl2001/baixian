@@ -1,0 +1,111 @@
+.hq-tit{width: 100%; height: 40px;margin:10px 0; border-bottom: 1px solid #dcdcdc; line-height: 40px;color: #146eb6;font-size: 18px;}
+.bj_b{width: 1210px;}
+.bj_b table{width: 392px;float: left;margin:0 10px 10px 0;}
+.bj_b table .red{color: #d60000}
+.bj_b table thead tr th{height: 82px;background: #fbfbfb}
+.bj_b table p{margin-left: 20px;font-size: 18px;color: #333}
+.bj_b table p span{font-size:12px;}
+.bj_b table .gz{padding: 6px 10px;color: #333;font-size: 14px; border: 1px solid #dcdcdc;float: right;margin: 0px 20px 0  0;cursor: pointer;}
+.bj_b table .gz i{width: 15px; height: 13px;margin-right: 5px; display: inline-block; background: url(../images/wgz.png);margin-top: 3px;float: left;}
+.bj_b table .gz i.hover{background: url(../images/ygz.png);}
+.bj_b table td{text-align: center;}
+.bj_b table tbody tr:last-child td{text-align: right;padding-right: 20px;}
+.kk-l{width: 100%; height: 20px;}
+.price_l{width: 593px; height: 339px;border: 1px solid #eee;float: left;margin:0 10px 10px 0;}
+.price_t{width: 100%;height: 50px;font-size: 20px;color:#333;line-height: 50px;background: url(../images/li1.png) repeat-x;text-indent: 20px;border-bottom: 1px solid #eee;position: relative;}
+.price_t span{height: 50px;line-height: 50px;border-bottom: 1px solid #008c3e; position: absolute;left: 0; bottom: -1px;display: inline-block;}
+.price_l table{margin: 15px 0;width: 296px;border-right: 1px solid #eee}
+.price_l table:last-child{border-right: none}
+.price_l table thead tr th{height: 35px;text-align: center;font-size: 14px; color: #146eb6;border-bottom: none;background: none}
+.price_l table tbody tr td{height: 28px;border-bottom: none;padding: 0}
+.s_type{width: 100%;}
+.s_type ul li{width: 199px; height: 38px; line-height: 38px; text-align: center;background: #eee;border: 1px solid #e5e5e5;float: left;font-size: 16px; color: #000;cursor: pointer;}
+.s_type ul li.selected{background: #fff;border-bottom: 1px solid #fff}
+.s_l{width: 1168px;float: left;clear: both;padding:15px;border: 1px solid #e5e5e5;border-top: none;display: none}
+.s_l a{width: 98px; height: 28px;display: inline-block;float: left;margin:15px;border: 1px solid #e5e5e5;color: #000;font-size: 14px;line-height: 28px; text-align: center;}
+.s_l a.selected{background: #3690d8;border-color: #146eb6;color: #fff;}
+.zst_t{width: 1200px; text-align: center;height: 59px;border-bottom: 1px solid #e5e5e5;font-size: 18px;color: #146eb6;line-height: 59px;clear: both;}
+.zst-b{width: 100%; height: 400px;}
+.je_db{width: 1200px;}
+.je_db table{margin: 15px 0;width: 100%;border-right: none;border-left:none}
+.je_db table:last-child{border-right: none}
+.je_db table tbody tr:last-child td{text-align:center;padding-right: 0}
+.je_db table thead tr th{height: 55px;text-align: center;font-size: 16px; color: #146eb6;border-bottom: none;background:#f7fbff}
+.je_db table tbody tr td{height: 59px;border-bottom: none;padding: 0}
+.je_db table tbody tr:nth-child(odd){background: #fbfbfb}
+.je_db table tbody tr:nth-child(even){background: #fff}
+.je_db table tbody tr:hover{background: #f3ffec}
+
+/*提交订单css*/
+.dD_t{width: 200px; height: 48px;line-height:48px;text-align:center;font-size:18px;color:#fff;-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; behavior: url(pie.htc);background: url(../images/t-bg.png) repeat-x;position: relative;}
+.dD_t span{width: 1200px; height: 3px;display: inline-block; background: #007cc3;position: absolute;left: 0;bottom: 0}
+.ress_b{width: 1198px;border:1px solid #eeeeee;margin-top: 20px;}
+.ress_b .checkbox{margin: 20px;clear: both;width: 100%}
+.ress_b .checkbox input{margin-right: 5px;float: left;width: 20px;height: 18px;}
+.ress_b .checkbox span{font-size: 14px; color: #666}
+.ress_t{width: 1198px; height: 38px;line-height: 38px; background: #f7f7f7;font-size: 18px; color: #333;text-indent: 20px;}
+.ress_l{width: 1158px;height: 40px;background: #eeeeee;margin: 20px;font-size: 12px;color: #333;line-height: 40px;}
+.ress_l i{width: 15px; height: 15px;display: inline-block;background: url(../images/radio.png) no-repeat left bottom;margin:12px 10px 0 20px;cursor: pointer;float: left;}
+.ress_l i.click{background-position: left top;}
+.ress_l a{float: right;margin-right: 20px;color: #146eb6;font-size: 12px;}
+.ress_l span{margin-left: 20px;}
+.ress_l span b{font-weight: normal;color: #000}
+.add_ress{width: 226px;height: 32px;margin:0 0 20px 20px; display: inline-block; line-height: 32px; text-align: center;color: #fff;background: #146eb6;-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; behavior: url(pie.htc);font-size: 16px;border:1px solid #fff; transition:all .2s ease-in-out;}
+.add_ress:hover{border-color:#146eb6; background: #fff; color: #146eb6 }
+.dd_jy dd{width: 148px; height: 66px;padding-left: 10px; margin: 20px;border: 2px solid #cce8ff;font-size: 14px; color: #666;position: relative;line-height: 33px;background: #f4faff}
+.dd_jy dd img{position: absolute;right: 10px; top: 10px;}
+.order_l{width: 1198px;border:1px solid #eeeeee;margin-top: 20px;}
+.order_l_t{width: 100%; border-bottom: 1px solid #eeeeee;height: 54px;}
+.order_l_t span{display: inline-block;height: 54px;line-height: 54px; border-bottom: 1px solid #146eb6;margin-left: 30px;font-size: 18px; color: #333}
+.order_l h3{font-size: 18px; color: #333;margin:30px 0 10px 30px;}
+.order_l table{width: 1138px; margin: 0 30px;border-left: 0;border-right: 0;border-bottom: 0 }
+.order_l table:last-child{border-right: none}
+.order_l table tbody tr:last-child td{text-align:center;padding-right: 0;border-right: 1px solid #eee;text-align: left;height:120px;}
+.order_l table tbody tr:last-child td:last-child{border-right: none;text-align: center;color: #333;font-size: 14px;}
+.order_l table thead tr th{height: 55px;text-align: center;font-size: 16px; color: #146eb6;border-bottom: none;background:#f7fbff;}
+.order_l table tbody tr td{height: 59px;border-bottom: none;padding: 0;text-align: center;}
+.order_l table tbody tr:nth-child(odd){background: #fbfbfb}
+.order_l table tbody tr:nth-child(even){background: #fff}
+.order_l table tbody tr:hover{background: #f3ffec}
+.order_l .h_c{margin-left: 75px;font-size: 18px; color: #333;display: inline-block;}
+.order_l .h_c i{font-size: 12px; color: #666;font-style: normal;}
+.order_l em.red{color: #d60000}
+.summit_order{width: 306px;height: 42px;margin:30px 0px 0px 0px;float: right; display: inline-block; line-height: 42px; text-align: center;color: #fff;background: #146eb6;-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; behavior: url(pie.htc);font-size: 14px;border: 1px solid #fff; transition:all .2s ease-in-out;}
+.summit_order:hover{border-color:#146eb6; background: #fff; color: #146eb6 }
+.wt_left{width: 928px;min-height: 586px; border: 1px solid #eee;margin-top: 20px;float: left;}
+.wt_lb{padding: 0 30px;}
+.wt_t{width: 100%;height: 50px;line-height: 50px;color: #333;font-size: 20px;position: relative;margin-top: 10px;border-bottom: 1px solid #eee;}
+.wt_t span{height: 50px; line-height: 50px;display: inline-block; border-bottom: 1px solid #146eb6}
+.wt_lb textarea{width:866px; height: 168px; border: 1px solid #eee;overflow: hidden;margin-top: 20px;font-size: 14px; color: #666;line-height: 24px;}
+.c-form{width: 100%; float: left;}
+.c-form form{width: 100%;float: left;padding-bottom: 40px}
+.c-form form h3{ float: left;margin: 0 0 20px -20px}
+.c-form dl{ margin-top:15px; float: left;margin-right: 15px;width: 100%}
+.c-form dl dt{width: 120px; height: 35px;font-size: 14px; float: left; text-align:right; line-height: 35px;margin-right: 20px;color: #333}
+.c-form dl dt i{ margin-right: 5px;color: #ff0505}
+.c-form dl dd{float: left;font-size: 16px;}
+.c-form dl dd.yzm input{ width: 100px; float: left;}
+.c-form dl dd.yzm a{color: #004098}
+.c-form dl dd{font-size: 12px; color: #666}
+.c-form dl dd.jzmm input{width:15px;height: 15px;}
+.c-form dl dd input.dz{width: 450px;}
+.c-form dl dd input{ height: 33px;line-height: 33px; text-indent: 15px;border: 1px solid #cccccc;color: #999999; border-top: 1px solid #a3a3a3; width: 300px;}
+.c-form dl dd input:focus{background: #fff}
+.c-form dl dd select{height: 33px;width: 300px;background: #fff}
+.c-form dl dd textarea{width:520px; height: 200px; overflow: hidden;border: 1px solid #cccccc;background: #f9f9f9;padding-left: 10px;}
+.c-form .submit{margin:30px 0 0 140px;cursor: pointer;}
+.wt_right{width: 250px; float: left;margin:20px 0 0 20px;}
+.wt_right .tit{width: 248px; border: 1px solid #eee;height: 50px;line-height: 50px;text-indent: 20px; font-size: 20px; color: #333}
+.wt_right .d2z{margin-top:20px}
+.s_l label{float: left;margin: 15px;height: 30px;width: 51px; text-align: right; line-height: 30px;margin-right: 0}
+.s_l .select{width: 150px;}
+.s_l input{width: 150px;height: 28px;border: 1px solid #e5e5e5;margin: 15px;text-indent: 15px;float: left;}
+.s_l label.gjz{margin-top: 0;}
+.s_l input.search{width: 200px;margin-top: 0;}
+.s_l input.search_b{margin: 0 0 0 30px;text-indent: 0;font-size: 14px;font-family: "微软雅黑";  line-height: 30px;height: 30px; cursor: pointer;}
+.s_l .cl{width: 100%; clear: both;}
+.select-b{width: 216px;height: 30px; margin: 15px;float: left;}
+.select-b em{float: left;margin:10px 15px 0 15px;font-style:normal;}
+.select-b a{width: auto;height: auto;display: inline-block;float:none;margin:auto;border: 0px;color:inherit;font-size:inherit;}
+/*2015.9.18*/
+.jqjg{white-space:nowrap;overflow:hidden;}
